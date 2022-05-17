@@ -1,0 +1,18 @@
+On Commence par récuperer grâce à la classe recupTomFile et aux méthodes qu'on a puintégrer grâce à la librairie toml tous les informations 
+indispensables
+tel que l'acceleration maximale, la couleur d'arrivée et le point de départ.
+Suite à ça on crée une map en combinnant les méthodes fournies par la librairie png++ et les informations recuperés grace à la classe recupTomFile.
+Dans cette map nous aurons tous les pixels de l'image.
+On en profite pour définir des méthodes qui stockent les pixel rouges dans un vecteur et les pixes noires dans un autre.
+Mais aussi une fonction qui permet de permet de colorier le pixel quu'on lui donne en paramètre( methode utile pour la simulation).
+
+Sur le fichier barjo kart nous avons avons créer X fonctions pou pouvoir atteindre notre objectif
+
+La premiere voisins permet de récuper tous les voisins valides d'un points qu'on lui donne en paramètre.
+Elle sert dans la fonction  listeAdjacence qui elle permet d'associer tous les points valides de l'image à 
+leurs voisins.
+Une fois cette liste d'adjacence créé intervient la fonction algoparcours. C'est cet algo qu va permettre
+de recuperer les plus courts chemin qui mènent à un point.
+
+Après cette étape vient la fonction AlgoBarjoKart qui est la plus importante.
+La premie
